@@ -1,0 +1,21 @@
+{
+  "name": "cotemig_bot",
+  "version": "0.0.1",
+  "description": "Chatbot do colégio Cotemig",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+  "
+  },
+  "keywords": [
+    "baanko"
+  ],
+  "author": "Grupo 01",
+  "license": "ISC",
+  "homepage": " ",
+  "dependencies": {
+    "lime-transport-websocket": "^2.0.2",
+    "messaginghub-client": "^3.4.1",
+    "moment": "^2.18.1"
+  }
+}
