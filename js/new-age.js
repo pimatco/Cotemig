@@ -14,6 +14,14 @@
       }
     }
   });
+ $(window).scroll(function(e) {   
+    if($(window).scrollTop() >=50) {
+       $(window).scrollTop(0);
+    }
+});
+
+$(window).scrollTop(300);
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
